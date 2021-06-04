@@ -35,6 +35,7 @@ function App() {
 
   return (
     <>
+    <div id="icon">MiCine</div>
       <header>
         <form onSubmit={handleOnSubmit}>
           <input

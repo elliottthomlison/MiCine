@@ -9,9 +9,9 @@
 }
 
 body {
-  background-color: #22254b;
+  background-color: #616161;
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "Arial", sans-serif;
   margin: 0;
 }
 
@@ -27,18 +27,19 @@ body {
 header {
   display: flex;
   justify-content: flex-end;
-  background-color: #373b69;
+  background-color: #464646;
   padding: 1rem;
 }
 
 .search {
   background-color: transparent;
-  border: 2px solid #22254b;
+  border: 2px solid black;
   border-radius: 50px;
-  font-family: inherit;
+  font-family: Arial;
   font-size: 1.2rem;
   padding: 0.5rem 1.5rem;
   color: white;
+  padding: 20px;
 }
 
 .search:focus {
@@ -47,6 +48,15 @@ header {
 
 .search::placeholder {
   color: white;
+}
+
+#icon{
+  background-color: #464646;
+  padding-left: 20px;
+  padding-top: 20px; 
+  font: 50px black;
+  font-family: arial; 
+  position: absolute;
 }
 
 /*
@@ -59,7 +69,7 @@ header {
 }
 
 .movie {
-  background-color: #373b69;
+  background-color: black;
   border-radius: 3px;
   box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
   overflow: hidden;     /* Para a imagem nao criar uma borda pontuda na parte superior do box */
@@ -93,7 +103,7 @@ header {
 */
 .movie-overview {
   background-color: #fff;
-  color: #22254b;
+  color: black;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   box-shadow: 0 -3px 5px rgba(0,0,0,0.1);
@@ -113,7 +123,7 @@ header {
 }
 
 .tag {
-  background-color: #22254b;
+  background-color:black;
   border-radius: 5px;
   font-weight: bold;
   padding: 0.5rem;
