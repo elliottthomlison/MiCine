@@ -1,6 +1,6 @@
 # MiCine
 
-MiCine is a movie-searching app.  
+MiCine is a movie-searching app. It was built using React with the intention of practicing how to incorporating an API. The project was challenging, but proved a good opportunity to practice React-based skills further. 
 
 ## Final Product
 
