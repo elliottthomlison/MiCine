@@ -6,10 +6,7 @@ MiCine is a movie-searching app. It was built using React with the intention of 
 
 ![Alt Text](/src/images/MiCine.gif)
 
-## Getting Started
+## Setup
 
-1. Fork this repository, then clone your fork of this repository.
-2. Install dependencies using the `npm install` command.
-3. Start the web server using the `npm start` command. The app will be served at <http://localhost:3000/>.
-4. Go to <http://localhost:3000/> in your browser.
+- To duplicate this project feel free to `git clone` it and then `npm install` the dependencies. 
 
